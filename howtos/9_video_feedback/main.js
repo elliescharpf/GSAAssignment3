@@ -60,7 +60,7 @@ const render = await sg.render({
         sg.video(Video.element),                      // videoBuffer
     ],
     onframe(){
-        t += params.speed * 0.5
+        t += params.speed * 0.3
 
         mouse.value = Mouse.values
         timeUniform.value = [t]
